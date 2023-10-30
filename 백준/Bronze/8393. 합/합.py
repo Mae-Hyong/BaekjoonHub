@@ -1,2 +1,10 @@
+# for문 미사용
 n = int(input())
 print(n*(n+1)//2)
+
+# for문 사용
+n = int(input())
+total = 0
+for i in range(1, n+1):
+    total += i
+print(total)
